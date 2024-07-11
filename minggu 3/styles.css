@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth; /* agar ketika klik link di daftar isi dan pindah ke element yang dituju, perpindahannya menjadi lebih smooth*/
+}
+
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
@@ -5,6 +9,10 @@ body {
   background-color: #f9f9f9;
   max-width: 800px;
   margin: auto;
+}
+
+li a {
+  transition: all 0.5s ease-in-out;
 }
 
 h1, h2, h3 {
